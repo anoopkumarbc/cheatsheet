@@ -1,8 +1,0 @@
----
-- hosts: dev
-  become: yes
-  gather_facts: false
-  tasks:
-    - name: create file name xyz
-      command: touch xyz
-      
